@@ -36,6 +36,38 @@ align-items: center;
     height: 759px;
     background-color: #171F33;
     color: #DAE2FD;
-    display:flex ;
-    justify-content: ;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-content: start;
+  
+}
+.cTopHeading{
+/* display: grid;
+justify-content: center; */
+padding-top: 48px;
+}
+.subcTopHeading{
+    /* display: grid;
+    justify-content: center; */
+    padding-top: 12px;
+   font-size: smaller;
+   letter-spacing: 2px;
+}
+label{
+    display: block;
+}
+.emailButton{
+ padding-top: 100px;
+ 
+}
+input{
+   margin-top: 5px;
+    border: 0;
+    color: #8C909F;
+    background-color: #222A3D;
+    height: 30px;
+}
+.Passward{
+    padding-top: 25px;
 }
