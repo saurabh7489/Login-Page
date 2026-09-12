@@ -74,10 +74,9 @@ position: relative;
 @media (max-width:391px){
     .ground{
     height: 35vh;
-   
-  
-   
     border-radius: 55% 55% 0px 0px;
+     position: absolute;
+    bottom: 0;
     }
     .bat{
 height: 25vh;
