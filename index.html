@@ -8,46 +8,75 @@
 </head>
 <body>
     <header>
+<div class="wholeHadder">
         <div class="headerText">
         <!-- <h1 class="logo">BOLTA</h1> -->
-         <img class="logo" src="./Container.png">
-        <p class="signUp">sign up</p></div>
+         <img  class="logo" src="./Container.png">
+        <a class="signUp" href="singin">Sign up</a>
+        </div></div>
     </header>
     <main>
         <div class="container">
           <div class="cTopHeading"> <h2>Welcome back</h2></div>
           <div class="subcTopHeading"> <p>Enter your credentials to access your account</p></div>
-          <div class="emailButton">
-<label for="Email">Email address </label>
-<input class="bothinpEP" type="text" size="43" maxlength="30" placeholder="  xyz@gmail.com"/>
+          <form action="">
+
+
+          <div class="emailinput">
+<label for="Email">Email address :
+    <br><input name="emailButton" type="email" placeholder="Examplexyz@gmail.com">
+     </label>
+
           </div>
           
           <div class="Passward">
-            <label for="userPassword">Password </label>
-            <input class="bothinpEP" type="password" size="43" maxlength="10" placeholder="  ••••••••••"/>
-            <div class="showpassward">
-                 <input  type="checkbox" onclick="myFunction()">
-                <p>Show Password</p>
-            </div>
+            <label for="userPassword">Password 
+            </br>
+                <input  name="userPassword" type="password" placeholder="password">
+            </label>
+            
+
+
+            </form>
+               
+           <button name="Login" class="Login" type="submit">Login</button>
           </div>
          
-          <button class="signin">Sing in →</button>
+          
 
           <p class="Or">───────── OR CONTINUE WITH ─────────</p>
           
+
           <div id="googleGit">
-<button class="googleGit">Google</button>
-<button class="googleGit">GitHub</button>
+
+<button class="googleGit">
+    <a href="www.google.com">Google</a>
+</button>
+
+<button class="googleGit">
+    <a href="www.github.com">GitHub</a>
+</button>
+
+
 </div>
-          <p>Don't have an account? <a>Sign up</a></p>
+
+          <p class="otherOption">Don't have an account? 
+            <a href="#">Sign up</a>
+          </p>
         </div>
     </main>
+
+
     <footer>
-        <div>
-        <span class="copyrightSec">© 2024 DevGrade Systems. All rights reserved.</span>
-        <span class="copyrightSec">   Privacy Policy</span>
-        <span class="copyrightSec">Terms of Service</span>
-        <span class="copyrightSec">Security</span></div>
+        <div><ul style="list-style-type: none;">
+            <li>© 2024 DevGrade Systems. All rights reserved.</li>
+            <li> Privacy Policy</li>
+            <li>Terms of Service</li>
+            <li>Security</li>
+        </ul>
+        </div>
     </footer>
+
+
 </body>
 </html>

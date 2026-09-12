@@ -1,7 +1,8 @@
 *{
    margin: 0px;
 }
-body{ min-height: 100vh;
+body{ height: 140vh;
+    
 
     background:
         radial-gradient(
@@ -17,36 +18,43 @@ body{ min-height: 100vh;
         #080f20;
 }
 header{ 
-    background-color: #0f1321;
-    height: 119px;
+    height: 10vh;
+    background-color:#0f1321;   /*#0f1321;*/
  align-content: center;
+ position: sticky;
+top: 0;
 }
 .headerText{
+   
    display: flex;
  justify-content: space-between;
  align-items: center;
-padding-left: 48px;
-padding-right: 48px;
-padding-top: 28px;
-padding-bottom: 28px;
  
+}
+img{
+   padding-left: 20px;
+    height: 30px;
 }
 .signUp{
    font-size: 17px;
     color: #C2C6D6;
     
 }
+a{
+text-decoration: none;
+color: #ffff;
+}
 main{
-    
-    height: 807px;
+    margin: 50px 0 50px 0;
+   
 display: flex;
 justify-content: center;
 align-items: center;
 }
 .container{
     
-    width:480px ;
-    height: 759px;
+    width:400px ;
+    /* height: 600px; */
     background-color: #171F33;
     color: #DAE2FD;
     display: grid;
@@ -54,55 +62,53 @@ align-items: center;
     justify-items: center;
     align-content: start;
   
+  
 }
 .cTopHeading{
-/* display: grid;
-justify-content: center; */
-padding-top: 48px;
+display: grid;
+justify-content: center; 
+ padding-top: 48px;
 }
 .subcTopHeading{
-    /* display: grid;
-    justify-content: center; */
+    display: grid;
+    justify-content: center;
     padding-top: 12px;
    font-size: smaller;
    letter-spacing: 2px;
 }
-label{
-    display: block;
-}
-.emailButton{
- padding-top: 100px;
+
+.emailinput{
+ padding-top: 80px;
  
 }
-.bothinpEP{
-   margin-top: 5px;
-    border: 0;
-    color: #8C909F;
-    background-color: #222A3D;
-    height: 30px;
-}
 
+
+input{
+   background-color: #0f1321;
+   color: #ADC6FF;
+    width: 100%;
+    margin-top: 10px;
+    padding: 7px;
+    border: none;
+    border-radius: 6px;
+}
 .Passward{
     width: 318px;
-    padding-top: 25px;
+    padding-top: 15px;
 }
-.signin{
-    margin-top: 45px;
+.Login{
+    margin-top: 25px;
     border: 0;
     color: #002E6A;
     background-color: #ADC6FF;
-    width: 318px;
-    height: 30px;
-   
+    width: 100%;
+    padding: 7px;
+    
 }
-.showpassward{
-    margin-top: 12px;
-    display: inline-block;
-    color: #8C909F;
-}
+
 .Or{
     color: #8C909F;
-    margin-top: 85px;
+    margin-top: 75px;
 }
 .googleGit{
     
@@ -114,16 +120,33 @@ label{
    
 }
 #googleGit{
-   margin: 40px;
+   margin: 30px;
+}
+.otherOption{
+    padding-bottom: 20px;
 }
 footer{
+  
+    text-align: center;
     color: #8C909F;
-     display: grid;
-    justify-content: center;
-    justify-items: center;
-    align-content: start;
- margin: 24px;
+    font-size: smaller;
+ padding: 15px;
+ white-space: pre-line;
 }
-.copyrightSec{
-    margin-right: 20px;
+
+.Login:hover{
+    background-color: #7ea4fb;
+}
+.googleGit:hover{
+    background-color: #222d49;
+}
+
+@media (max-width:391px){
+ .container{
+    width: 300px;
+ }
+ .subcTopHeading{
+  letter-spacing: 0.5px;
+    text-align: center;
+ }
 }
